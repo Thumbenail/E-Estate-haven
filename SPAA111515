@@ -1,3 +1,10 @@
+ links:	    links:
+      - backend	      - backend
+    ports:	    ports:
+      - "4231:80"	      - "80:80"
+    environment:	    environment:
+      TZ: "Asia/Tokyo"	      TZ: "Asia/Tokyo"
+    # volumes:	    # volumes:
 story.txt
 story-joe-edit.txt
 story-joe-edit-reviewed.txt
